@@ -138,6 +138,7 @@ floatingObject('.floating1', 1, 15);
 floatingObject('.floating2', 1, 15);
 floatingObject('.floating3', 1, 15);
 
+/* MagicScroll */
 const spyEls = document.querySelectorAll('section.scroll-spy')
 spyEls.forEach(function (spyEl) {
     new ScrollMagic
